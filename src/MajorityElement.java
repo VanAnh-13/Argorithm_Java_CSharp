@@ -13,7 +13,7 @@ public class MajorityElement {
         }
 
         for (Map.Entry<Integer, Integer> entry : elementAppear.entrySet()) {
-            if (entry.getValue() > nums.length / 3) {
+            if (entry.getValue() > nums.length / 2) {
                 return entry.getKey();
             }
         }
