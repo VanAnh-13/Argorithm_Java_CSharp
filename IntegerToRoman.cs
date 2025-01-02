@@ -30,7 +30,7 @@ namespace Algorithm
                 "L", 50
             },
             {
-                "xc", 90
+                "XC", 90
             },
             {
                 "C", 100
@@ -56,7 +56,7 @@ namespace Algorithm
                 {
                     int romanRepeat = num / item.Value;
                     num %= item.Value;
-                    return string.Concat(Enumerable.Repeat(item.Key, romanRepeat)).ToUpper();
+                    return string.Concat(Enumerable.Repeat(item.Key, romanRepeat));
                 })));
         }
 
